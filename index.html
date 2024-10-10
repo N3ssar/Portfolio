@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Muhammad Nassar - Frontend Developer specializing in HTML, CSS, JavaScript, and React. View my portfolio showcasing innovative web projects and problem-solving skills.">
+
+    <title>Muhammad Nassar</title>
+    <!-- Icon -->
+    <link rel="shortcut icon" href="assets/Images/icon.ico" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+
+<body>
+    <!-- Background Video -->
+    <video class="video-loop" autoplay loop muted playsinline>
+        <source src="assets/media/video-loop.mp4" type="video/mp4">
+    </video>
+    <!-- Start Header -->
+    <header class="header">
+        <div class="container">
+            <label for="menu" class="burger-menu">
+                <span class="burger-menu__bar"></span>
+                <span class="burger-menu__bar"></span>
+                <span class="burger-menu__bar"></span>
+            </label>
+            <input id="menu" class="burger-menu__checkbox" type="checkbox" />
+
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li>
+                        <a class="navigation__link navigation__bio" href="#bio">Bio</a>
+                    </li>
+                    <li>
+                        <a class="navigation__link navigation__skills" href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a class="navigation__link navigation__media" href="#media">Media</a>
+                    </li>
+                    <li>
+                        <a class="navigation__link navigation__projects" href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a class="navigation__link navigation__clients" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li>
+                        <a class="navigation__link navigation__contact" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="toggle">
+                <h3 class="toggle__title">Switch Theme</h3>
+                <input id="toggle" class="toggle__checkbox" type="checkbox" />
+                <label class="toggle__label" for="toggle"></label>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <main>
+        <!-- Start Bio -->
+        <section id="bio" class="bio section">
+            <div class="container">
+                <div class="bio__content">
+                    <h1 class="bio__heading">
+                        Hi There!,
+                        I'M A Frontend Developer
+                    </h1>
+                    <p class="bio__text">
+                        My name is <a href="https://github.com/N3ssar" class="bio__name" target="_blank"
+                            rel="noopener noreferrer">Muhammad
+                            Nassar</a>. A CS
+                        Student at
+                        <a class="education" href="http://himc.psu.edu.eg/" target="_blank"
+                            rel="noopener noreferrer">Port Said University</a>
+                        and I am a
+                        passionate
+                        Frontend Developer
+                        with
+                        a strong background in web
+                        development and user experience design.
+                    </p>
+                    <div class="bio__links-container">
+                        <a href="#contact" class="bio__links say-hi-link">Say Hi</a>
+                        <a href="#" class="bio__links find-out-link">Download CV <i
+                                class="fa-solid fa-arrow-down-long bio__arrow"></i></a>
+                    </div>
+                </div>
+                <div class="bio__image">
+                    <img class="bio__image--content" src="assets/Images/Prsonal-pic.png" loading="lazy"
+                        alt="Image Of Muhammad Nassar">
+                </div>
+            </div>
+        </section>
+        <!-- End Bio -->
+
+        <!-- Start Skills -->
+        <section id="skills" class="skills section section--with-bg">
+            <div class="container">
+                <h2 class="skills__heading heading">Skills</h2>
+                <ul class="skills__list">
+                    <li class="skills__content">
+                        <h3 class="skills__title">HTML</h3>
+                        <i class="fa-brands fa-html5 skills__icon html"></i>
+                        <p class="skills__years">2 Years</p>
+                    </li>
+                    <li class="skills__content">
+                        <h3 class="skills__title">CSS</h3>
+                        <i class="fa-brands fa-css3-alt skills__icon css"></i>
+                        <p class="skills__years">1 Year</p>
+                    </li>
+                    <li class="skills__content">
+                        <h3 class="skills__title">JavaScript</h3>
+                        <i class="fa-brands fa-js skills__icon js"></i>
+                        <p class="skills__years">1 Year</p>
+                    </li>
+                    <li class="skills__content">
+                        <h3 class="skills__title">React</h3>
+                        <i class="fa-brands fa-react skills__icon react"></i>
+                        <p class="skills__years">1 Year</p>
+                    </li>
+                    <li class="skills__content">
+                        <h3 class="skills__title">C++</h3>
+                        <i class="fa-solid fa-c skills__icon cplus">++</i>
+                        <p class="skills__years">2 Years</p>
+                    </li>
+                    <li class="skills__content">
+                        <h3 class="skills__title">C#</h3>
+                        <i class="fa-solid fa-code skills__icon csharp"></i>
+                        <p class="skills__years">2 Years</p>
+                    </li>
+                    <li class="skills__content">
+                        <h3 class="skills__title">SQL</h3>
+                        <i class="fa-solid fa-database skills__icon sql"></i>
+                        <p class="skills__years">2 Years</p>
+                    </li>
+                    <li class="skills__content">
+                        <h3 class="skills__title">Python</h3>
+                        <i class="fa-brands fa-python skills__icon py"></i>
+                        <p class="skills__years">2 Years</p>
+                    </li>
+                    <li class="skills__content">
+                        <h3 class="skills__title">Problem Solving</h3>
+                        <i class="fa-solid fa-lightbulb skills__icon problem-solving"></i>
+                        <p class="skills__years">2 Years</p>
+                    </li>
+                    <li class="skills__content">
+                        <h3 class="skills__title">Git</h3>
+                        <i class="fa-brands fa-git-alt skills__icon git"></i>
+                        <p class="skills__years">1 Years</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- End Skills -->
+
+        <!-- Start Media Section -->
+        <section id="media" class="media section">
+            <div class="container">
+                <video class="media__video" controls poster="assets/Images/poster.jpg" muted preload="auto">
+                    <source src="assets/media/Media.mp4" type="video/mp4">
+                    Your browser does not support the video Tag
+                </video>
+            </div>
+        </section>
+        <!-- End Media Section -->
+
+        <!-- Start Projects Section -->
+        <section id="projects" class="section projects">
+            <div class="container">
+                <h2 class="project__heading heading">My Featured
+                    <br>Projects
+                </h2>
+                <article class="projects__main">
+                    <section class="project">
+                        <img class="Projects__image quranTab" src="assets/Images/QuranTab.png" loading="lazy"
+                            alt="QuranTab Landing Page image">
+                        <article class="projects__data">
+                            <h3 class="h3__heading">
+                                QuranTab <br>Landing Page
+                            </h3>
+                            <p class="projects__description">
+                                QuranTab is a simple Quran app that provides a
+                                clean and minimalistic interface for listening and
+                                reading the Quran.
+                            </p>
+                            <div class="projects__links">
+                                <a href="https://n3ssar.github.io/Quran-Tab/" class="projects__links"
+                                    target="_blank">Live
+                                    Demo<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <a href="https://github.com/N3ssar/Quran-Tab" target="_blank">Repository <i
+                                        class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </article>
+
+                    </section>
+
+                    <section class="project">
+                        <img class="Projects__image Product-management"
+                            src="assets/Images/Product Management System.png" loading="lazy"
+                            alt="Product Management System Image">
+                        <article class="projects__data">
+                            <h3 class="h3__heading">
+                                Product Management <br>System
+                            </h3>
+                            <p class="projects__description">
+                                Product Management System is a web application that allows users to create, edit,
+                                ,search
+                                and delete
+                                products easily.
+                            </p>
+                            <div class="projects__links">
+                                <a href="https://n3ssar.github.io/Product-Management-System/" class="projects__links"
+                                    target="_blank">Live
+                                    Demo<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <a href="https://github.com/N3ssar/Product-Management-System" target="_blank">Repository
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </article>
+                    </section>
+
+                    <section class="project">
+                        <img class="Projects__image LaslesVPN" src="assets/Images/LaslesVPN.png" loading="lazy"
+                            alt="LaslesVPN Landing Page image">
+                        <article class="projects__data">
+                            <h3 class="h3__heading">
+                                LaslesVPN <br>Landing Page
+                            </h3>
+                            <p class="projects__description">
+                                LaslesVPN is a simple VPN service that offers a clean and minimalistic interface for
+                                connecting to
+                                different countries.
+                            </p>
+                            <div class="projects__links">
+                                <a href="https://n3ssar.github.io/LaslesVPN-Landing-Page/" class="projects__links"
+                                    target="_blank">Live
+                                    Demo<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <a href="https://github.com/N3ssar/LaslesVPN-Landing-Page" target="_blank">Repository<i
+                                        class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </article>
+                    </section>
+
+                    <section class="project">
+                        <img class="Projects__image signUp" src="assets/Images/signUp.png" loading="lazy"
+                            alt="Sign Up Form image">
+                        <article class="projects__data">
+                            <h3 class="h3__heading">
+                                Sign Up <br>Form
+                            </h3>
+                            <p class="projects__description">
+                                Sign Up Form is a simple form that allows users to create an account and store their
+                                information. It is a common feature on websites that require user registration.
+                            </p>
+                            <div class="projects__links">
+                                <a href="https://n3ssar.github.io/SignUp-logIn/" class="projects__links"
+                                    target="_blank">Live
+                                    Demo<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <a href="https://github.com/N3ssar/SignUp-logIn" target="_blank">Repository<i
+                                        class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </article>
+                    </section>
+
+                    <section class="project">
+                        <img class="Projects__image Kasper" src="assets/Images/KasperTemplate.png"
+                            alt="kasper template image">
+                        <article class="projects__data">
+                            <h3 class="h3__heading">
+                                Kasper Template <br>Landing Page
+                            </h3>
+                            <p class="projects__description">
+                                Kasper Template is a simple landing page that offers a clean and minimalistic interface
+                                for users to access the website. It features a prominent header with a logo and
+                                navigation
+                                links, a hero section with a large image and a call-to-action button, and a footer with
+                                contact information.
+                            </p>
+                            <div class="projects__links">
+                                <a href="https://n3ssar.github.io/Kasper-Template/" class="projects__links"
+                                    target="_blank">Live
+                                    Demo<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <a href="https://github.com/N3ssar/Kasper-Template" target="_blank">Repository<i
+                                        class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </article>
+                    </section>
+
+                    <section class="project">
+                        <img class="Projects__image LaslesVPN" loading="lazy" src="assets/Images/moonAnimation.png"
+                            alt="moon animation image">
+                        <article class="projects__data">
+                            <h3 class="h3__heading">
+                                Moon Animation <br> CSS Only
+                            </h3>
+                            <p class="projects__description">
+                                Moon Animation is a simple CSS animation that creates the illusion of a moon rising from
+                                the horizon. It uses CSS keyframes to animate the moon's position, size, and opacity,
+                                creating a smooth and natural transition. The animation is fully customizable and can be
+                                easily integrated into any website or web application.
+                            </p>
+                            <div class="projects__links">
+                                <a href="https://n3ssar.github.io/Earth-Moon-Animation/" class="projects__links"
+                                    target="_blank">Live
+                                    Demo<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <a href="https://github.com/N3ssar/Earth-Moon-Animation" target="_blank">Repository<i
+                                        class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </article>
+                    </section>
+                </article>
+                <div class="additional__links">
+                    <a class="gitHub__profile" href="https://github.com/N3ssar" target="_blank">All Projects <i
+                            class="fa-brands fa-square-github"></i></a>
+                    <a class="codePen__profile" href="https://codepen.io/mohamed-nassar-the-styleful"
+                        target="_blank">Some
+                        Tricks <i class="fa-brands fa-codepen"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- End Projects Section -->
+
+        <!-- Start Testimonials Section -->
+        <section id="testimonials" class="section testimonials section--with-bg">
+            <div class="container">
+                <h2 class="heading">
+                    What My <br>
+                    Clients Says
+                </h2>
+                <div class="testimonials__wrapper">
+                    <p>Mohamed Nassar has the exceptional ability to grasp complex problems and deliver high-quality
+                        solutions efficiently. As
+                        a Front-end Developer, Mohamed consistently demonstrates his expertise in building responsive
+                        and user-friendly
+                        interfaces. Every project we have collaborated on, I have full confidence that Mohamed will meet
+                        and exceed
+                        expectations, always delivering on time.</p>
+                    <p>Mohamed Nassar will patiently listen to your ideas and provide his own creative input. In the
+                        end, he often delivers
+                        something completely different from what you expected, but the great thing is—you'll always love
+                        the final result.</p>
+                    <p>I had the opportunity to work closely with Mohamed Nassar as his direct manager from his first
+                        day at DeliveryHero until
+                        my last day there (6+ months). One of Mohamed's greatest strengths that I truly admire is his
+                        ability to take
+                        initiatives both on a personal and team level, and successfully drive them to completion.</p>
+                </div>
+            </div>
+        </section>
+        <!-- End Testimonials Section -->
+
+        <!-- Start Contact Section -->
+        <section id="contact" class="section contact">
+            <div class="container">
+                <div class="contact__contactInfo">
+                    <p class="contact__description">
+                        Feel free to reach out to me anytime. I prefer communicating via email, especially considering
+                        that
+                        we might be in
+                        different time zones
+                    </p>
+                    <a href="mailto:muhammadahmadnassar@gmail.com" class="contact__email"><i
+                            class="fa-solid fa-square-envelope"></i>
+                        muhammadahmadnassar@gmail.com</a>
+
+                    <div class="contact__social">
+                        <a href="https://www.linkedin.com/in/muhammad-ahmad-nassar/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://t.me/N3ssar"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="https://x.com/MuhmdANassar"><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="https://web.facebook.com/muhammadahmednassar"><i
+                                class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://github.com/N3ssar"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="contact__formContact">
+                    <h2 class="heading">
+                        Let’s Work
+                        Together!
+                    </h2>
+                    <form id="contactForm" name="submit-to-google-sheet">
+                        <input class="contact__input" type="text" name="Name" placeholder="FullName" required>
+                        <input class="contact__input" type="email" name="email" placeholder="Email" required
+                            id="emailInput">
+                        <textarea class="contact__input Contact__textArea" name="description" id="description" rows="2"
+                            placeholder="Your Message" required></textarea>
+                        <button class="contact__submit" type="submit">Send Message</button>
+                    </form>
+                    <p id="msg"></p>
+                </div>
+            </div>
+        </section>
+        <!-- End Contact Section -->
+
+        <!-- Start Footer Section -->
+        <footer class="footer">
+            &copy;2024 by <a href="https://www.linkedin.com/in/muhammad-ahmad-nassar/" target="_blank">Muhammad
+                Nassar.</a>
+        </footer>
+        <!-- End Footer Section -->
+
+
+    </main>
+
+    <!-- Start Script -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzr2Ov3Jg8lUAtGepX18WRuBr-aEs2f7trGCUJfTZm3lFkwlx9lEfwy5pNVxwThAqfW/exec';
+        const form = document.forms['submit-to-google-sheet'];
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.textContent = "Message sent successfully!";
+                    msg.style.color = "#03a696";
+                    form.reset();
+                    setTimeout(() => msg.textContent = "", 5000);
+                })
+                .catch(error => {
+                    msg.textContent = "Error sending message!";
+                    msg.style.color = "#ff0000";
+                    console.error('Error!', error.message);
+                    setTimeout(() => msg.textContent = "", 5000);
+                });
+        });
+
+        const phoneInput = document.getElementById('phoneInput');
+
+        phoneInput.addEventListener('input', function () {
+            this.setCustomValidity(this.validity.patternMismatch ? "Please enter a valid Egyptian phone number (e.g., 01012345678)" : "");
+        });
+    </script>
+    <!-- End Script -->
+</body>
+
+</html>
