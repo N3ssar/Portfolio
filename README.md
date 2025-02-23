@@ -7,10 +7,10 @@ This repository contains the source code for my **professional portfolio website
 ## 📸 Preview
 
 ### 🌞 Light Mode:
-![Portfolio Preview](./assets/images/Portfolio.png)
+![Portfolio Preview](./assets/Images/Portfolio.png)
 
 ### 🌙 Dark Mode:
-![Portfolio Dark Mode Preview](./assets/images/Portfolio-dark.png)
+![Portfolio Dark Mode Preview](./assets/Images/Portfolio-dark.png)
 
 ## ✨ Key Features
 
